@@ -157,11 +157,11 @@ Here is an another example
 from database import Database
 
 # Initial graph
-[("core", None), ("A", "core"), ("B", "core"), ("C", "core"), ("C1", "C")]
+build = [("core", None), ("A", "core"), ("B", "core"), ("C", "core"), ("C1", "C")]
 # Extract
-{"img001": ["A", "B"], "img002": ["A", "C1"], "img003": ["B", "E"]}
+extract = {"img001": ["A", "B"], "img002": ["A", "C1"], "img003": ["B", "E"]}
 # Graph edits
-[("A1", "A"), ("A2", "A"), ("C2", "C")]
+edits = [("A1", "A"), ("A2", "A"), ("C2", "C")]
 
 # Get status (this is only an example, test your code as you please as long as it works)
 status = {}
